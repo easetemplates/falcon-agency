@@ -2,3 +2,26 @@
 @import './theme/variables';
 @import 'bootstrap/scss/bootstrap.scss';
 @import './theme/avatar';
+
+.accordion {
+	margin-bottom: 10px;
+}
+.accordion .accordion-header {
+	background-color: #f1f1f1;
+	padding: 10px;
+	cursor: pointer;
+}
+.accordion .accordion-header:hover {
+	background-color: #e0e0e0;
+}
+.accordion .accordion-header .icon {
+	float: left;
+	height: 50%;
+}
+.accordion .accordion-content {
+	padding: 10px;
+	display: none;
+}
+.accordion.active .accordion-content {
+	display: block;
+}
