@@ -851,8 +851,8 @@ $btn-link-focus-shadow-rgb: to-rgb(mix(color-contrast($link-color), $link-color,
 
 // Allows for customizing button radius independently from global border radius
 $btn-border-radius: var(--#{$prefix}border-radius) !default;
-$btn-border-radius-sm: var(--#{$prefix}border-radius-pill) !default;
-$btn-border-radius-lg: var(--#{$prefix}border-radius-pill) !default;
+$btn-border-radius-sm: var(--#{$prefix}border-radius-sm) !default;
+$btn-border-radius-lg: var(--#{$prefix}border-radius-lg) !default;
 
 $btn-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !default;
 
@@ -910,9 +910,9 @@ $input-border-color: var(--#{$prefix}border-color) !default;
 $input-border-width: $input-btn-border-width !default;
 $input-box-shadow: var(--#{$prefix}box-shadow-inset) !default;
 
-$input-border-radius: var(--#{$prefix}border-radius-pill) !default;
-$input-border-radius-sm: var(--#{$prefix}border-radius-pill) !default;
-$input-border-radius-lg: var(--#{$prefix}border-radius-pill) !default;
+$input-border-radius: var(--#{$prefix}border-radius) !default;
+$input-border-radius-sm: var(--#{$prefix}border-radius-sm) !default;
+$input-border-radius-lg: var(--#{$prefix}border-radius-lg) !default;
 
 $input-focus-bg: $input-bg !default;
 $input-focus-border-color: tint-color($component-active-bg, 50%) !default;
